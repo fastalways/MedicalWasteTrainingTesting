@@ -1,0 +1,11 @@
+File Ipynb
+Title MD ->    # 4G
+Add DatasetMedicalWaste_4Groups/
+    to 
+        1   train_dataset_path
+        2   test_indoor_dataset_path - test_belt_dataset_path
+        3   test_indoor_dataset_path - test_belt_dataset_path (in section : Reloaded the Best Model for test)
+Comment class_names
+Change path_to_model e.g. 'D:/ModelMedicalWasteCheckpoint/4G_Xception/'
+class_names = ['1-InfectionWaste', '2-BloodSecretionWaste', '3-LabWardWaste', '4-VaccineOtherWaste']    (in section : Reloaded the Best Model for test)
+plt.figure(figsize = (14,14))
