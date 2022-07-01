@@ -1,0 +1,5 @@
+Install the Latest Nvidia driver
+Install NVIDIA GPU Computing Toolkit CUDA v11.4
+Install cuDNN v11.4
+Install python 3.8.10
+pip install -r requirement.txt
